@@ -265,7 +265,7 @@ void UModalCameraComponent::CheckDefaultInitialization()
 	ContinueInitStateChain(StateChain);
 }
 
-TSubclassOf<UCameraMode> UModalCameraComponent::DetermineCameraMode() const
+TSubclassOf<UModalCameraMode> UModalCameraComponent::DetermineCameraMode() const
 {
 	if (AbilityCameraMode)
 	{
